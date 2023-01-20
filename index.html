@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | AluraBooks</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -51,5 +52,39 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" name="" id="" placeholder="Qual será sua próxima leitura?">
     </section>
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Novos lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="./assets/img/ApacheKafka.png" alt="Livro sobre apache kafka e spring boot da alura books"></div>
+        <div class="swiper-slide"><img src="./assets/img/Liderança.png" alt="Livro sobre liderança em design da alura books"></div>
+        <div class="swiper-slide"><img src="./assets/img/Javascript.png" alt="Livro sobre javascript assertivo da alura books"></div>
+        <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro Guia Front End"></div>
+        <div class="swiper-slide"><img src="./assets/img/Portugol.png" alt="Livro sobre Portugol"></div>
+        <div class="swiper-slide"><img src="./assets/img/Acessibilidade.png" alt="Livro sobre Acessibilidade"></div>
+        <div class="swiper-slide"><img src="./assets/img/MetricasAgeis.png" alt="Livro sobre Métricas Ageis "></div>
+        </div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+  },
+    });
+    </script>
 </body>
 </html>
