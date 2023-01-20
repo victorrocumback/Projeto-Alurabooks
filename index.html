@@ -7,14 +7,49 @@
     <title>Home | AluraBooks</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="cabecalho">
-        <span class="cabecalho__menu-hamburguer"></span>
-        <img src="assets/img/Logo.svg" alt="Logo da Altabooks">
-        <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus Favoritos"></a>
-        <a href="#"><img src="assets/img/Compras.svg" alt="Carrinho de compras"></a>
-        <a href="#"><img src="assets/img/Usuario.png" alt="Meu perfil"></a>
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
+            <img src="assets/img/Logo.svg" alt="Logo da Altabooks" class="container__imagem">
+        </div>
+        <div class="container">
+            <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="assets/img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+            <a href="#"><img src="assets/img/Usuario.png" alt="Meu perfil" class="container__imagem"></a>
+        </div>
     </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner__pesquisa" name="" id="" placeholder="Qual será sua próxima leitura?">
+    </section>
 </body>
 </html>
