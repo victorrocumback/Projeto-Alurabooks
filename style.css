@@ -1,10 +1,14 @@
 @import url("assets/css/header.css");
 @import url("assets/css/banner.css");
 @import url("assets/css/carrosel.css");
+@import url("assets/css/topicos.css");
+@import url("assets/css/contato.css");
+@import url("assets/css/rodape.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --preto: #000000;
     --laranja: #EB9B00;
     --azul: #002F52;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);

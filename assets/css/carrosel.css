@@ -69,6 +69,10 @@
     font-size: 14px;
 }
 
+.descricao__imagem {
+    width: 146px;
+}
+
 .botoes__item {
     margin: 0 0.5em;
 }
