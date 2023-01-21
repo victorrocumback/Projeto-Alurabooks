@@ -9,10 +9,15 @@
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --preto: #000000;
+    --cinza: #858585;
+    --cinza2: #F9F9F9;
+    --cinza3: #474646;
     --laranja: #EB9B00;
     --azul: #002F52;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    
     --fonte-principal: "Poppins", sans-serif;
+    --fonte-secundaria: "Josefin Sans", sans-serif;
 }
 
 body {
