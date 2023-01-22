@@ -71,6 +71,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 1024px) {
@@ -117,5 +121,18 @@
     .opcoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .container__texto {
+        display: block;
+        font-size: 20px;
+        color: var(--preto);
+    }
+
+    .opcoes {
+
     }
 }
