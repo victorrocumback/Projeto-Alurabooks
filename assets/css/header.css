@@ -14,7 +14,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--branco);
-    position: relative
+    position: relative;
+    padding: 0 .5em;
 }
 
 .container {
@@ -23,7 +24,7 @@
 }
 
 .container__imagem {
-    padding: 1em;
+    margin-right: .5em;
 }
 
 /* Menu */
@@ -126,13 +127,18 @@
 
 @media screen and (min-width: 1728px) {
 
-    .container__texto {
-        display: block;
-        font-size: 20px;
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
         color: var(--preto);
     }
 
-    .opcoes {
+    .cabecalho {
+        padding: .5em 2em;
+    }
 
+    .container__texto {
+        display: block;
     }
 }

@@ -70,7 +70,7 @@
 }
 
 .descricao__imagem {
-    width: 146px;
+    max-width: 146px;
 }
 
 .botoes__item {
@@ -91,7 +91,7 @@
         font-size: 26px;
         padding: 2em 0 .8em 0;
     }
-    }
+    
 
     .swiper-pagination {
         margin: 2em 0 3em 0;
