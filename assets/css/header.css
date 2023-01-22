@@ -134,11 +134,20 @@
         color: var(--preto);
     }
 
+    .container__carrinho-link {
+        width: 48px;
+    }
+
     .cabecalho {
         padding: .5em 2em;
     }
 
     .container__texto {
         display: block;
+        margin-right: 1em;
+    }
+
+    .opcoes {
+        margin-right: auto;
     }
 }
